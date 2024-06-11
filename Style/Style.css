@@ -650,8 +650,8 @@ h3.my-profession {
 }
 
 .contact .contact-info-item{
-    flex: 0 0 25%;
-    max-width: 25%;
+    flex: 0 0 20%;
+    max-width: 20%;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -662,8 +662,9 @@ h3.my-profession {
 
 .contact .contact-info-item .icon .fa,
 .contact .contact-info-item .icon .fab,
+.contact .contact-info-item .icon .fa-brands,
 .contact .contact-info-item .icon .fas{
-    font-size: 25px;
+    font-size: 20px;
     color: var(--skin-color);
 }
 
@@ -756,7 +757,9 @@ h3.my-profession {
     .about .about-content .education,
     .about .about-content .experience,
     .portfolio .portfolio-item,
-    .service .service-item{
+    .service .service-item,
+    .about .about-content .personal-info .info-item,
+    .about .about-content .skills .progress .progress-in{
         flex: 0 0 100%;
         max-width: 100%;
     }
